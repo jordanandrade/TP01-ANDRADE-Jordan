@@ -1,1 +1,37 @@
-<h1> Hello world bonjour test 42 test 43</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulaire</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.less">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+
+    <body>
+		<div class="title">
+			<h1>Formulaire</h1>
+		</div>
+		<p> Rentrez vos coordonnées </p>
+		
+		<form method="post">
+			<div class="mb-3">
+				<label>Nom: </label><input type="text" name="name"><br>
+				<label>Prénom: </label><input type="text" name="firstName"><br>
+				<label>Adresse: </label><input type="text" name="adresse"><br>
+				<label>Code postale: </label><input type="number" name="postalCode"><br>
+				<label>Ville: </label><input type="text" name="city"><br>
+				<label>Téléphone: </label><input type="number" name="numberPhone"><br>
+				<label>Email: </label><input type="text" name="email"><br>
+				<label>Civilité: </label>
+				<select type="text" name="civility">
+					<option>M.</option>
+					<option>Mme.</option>
+				</select><br>
+				<label>Mots de passe: </label><input type="password" name="password"><br>
+				<label>Login: </label><input type="text" name="login"><br>
+			</div>
+			
+		</form>
+    </body>
+</html>
